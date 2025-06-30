@@ -1,4 +1,7 @@
-from study_tools import math_log, reading_log
+import utils
 
-math_log.log_equation("2x + 3 = 7")
-reading_log.log_book("Atomic Behaviour")
+name = input("Enter your name: ")
+print(utils.greet_user(name))
+
+hours = int(input("Enter number of hours: "))
+print(utils.convert_into_minutes(hours))
