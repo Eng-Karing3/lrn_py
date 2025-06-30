@@ -1,4 +1,4 @@
-import math_helper
+from study_tools import math_log, reading_log
 
-print(f"The square of 4 is: {math_helper.square(4)}")
-print(f"Cube of 3 is: {math_helper.cube(3)}")
+math_log.log_equation("2x + 3 = 7")
+reading_log.log_book("Atomic Behaviour")
