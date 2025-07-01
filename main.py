@@ -1,4 +1,7 @@
-import math_helper
+import utils
 
-print(f"The square of 4 is: {math_helper.square(4)}")
-print(f"Cube of 3 is: {math_helper.cube(3)}")
+name = input("Enter your name: ")
+print(utils.greet_user(name))
+
+hours = int(input("Enter number of hours: "))
+print(utils.convert_into_minutes(hours))
